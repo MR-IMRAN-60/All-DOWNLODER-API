@@ -1,60 +1,65 @@
-# Media Downloader
+Here's a sample `README.md` file for your Express application:
 
-A simple Express application that allows users to download media from provided URLs.
+```markdown
+# Media Downloader API
 
-## Table of Contents
+This is a simple Express.js application that allows users to download media from a given URL using the `imran-dlmedia` library.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [API](#api)
-- [HTML Response](#html-response)
-- [Contributing](#contributing)
-- [License](#license)
+## Features
+
+- Serve a static HTML page.
+- Fetch notices (custom implementation).
+- Download media using a provided URL.
 
 ## Installation
 
-To get started with this project, clone the repository and install the necessary dependencies:
+1. Clone the repository:
 
-```bash
-1. git clone <repository-url>
-cd <repository-directory>
-npm install
-```
-2. Install the required packages:
-```bash
-npm install
-```
-## Usage 
-1.Start the server:
-```bash
-node index.js
-```
-The server will run on http://localhost:3000
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
 
-2. Access the application in your web browser:
-  ```arduino
-http://localhost:3000
-```
-3. To use the API, send a GET request to /api with the URL parameter:
- ```bash
-http://localhost:3000/api?url=<media-url>
-```
-Replace <media-url> with the URL of the media you want to download
+2. Install the dependencies:
 
-## Error Handling 
-**. If the url parameter is missing, the API will return a 400 status code with an error message **
+   ```bash
+   npm install
+   ```
 
-** If an error occurs during the media download, a 500 status code will be returned with an error message.
-**
+## Usage
+
+1. Start the server:
+
+   ```bash
+   npm start
+   ```
+
+   The server will run on `http://localhost:3000`.
+
+2. Access the API:
+
+   Make a GET request to `/api` with a query parameter `url`. For example:
+
+   ```
+   GET http://localhost:3000/api?url=<media-url>
+   ```
+
+   Replace `<media-url>` with the URL of the media you want to download.
+
+## Error Handling
+
+- If the `url` parameter is missing, the API will return a `400` status code with an error message.
+- If an error occurs during the media download, a `500` status code will be returned with an error message.
 
 ## Contributing
+
 Feel free to submit issues or pull requests for improvements or new features.
 
 ## License
+
 This project is licensed under the MIT License.
-```bash
-### Notes:
-- Replace `<repository-url>` and `<repository-directory>` with your actual repository details.
-- Customize sections as needed to better fit your project specifics.
 ```
 
+### Notes:
+- Replace `https://github.com/MR-IMRAN-60/All-DOWNLODER-API` and `<repository-directory>` with your actual repository details.
+- Customize sections as needed to better fit your project specifics.
