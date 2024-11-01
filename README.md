@@ -39,6 +39,22 @@ http://localhost:3000
  ```bash
 http://localhost:3000/api?url=<media-url>
 ```
+Replace <media-url> with the URL of the media you want to download
 
-5. 
+## Error Handling 
+**. If the url parameter is missing, the API will return a 400 status code with an error message **
+
+** If an error occurs during the media download, a 500 status code will be returned with an error message.
+**
+
+## Contributing
+Feel free to submit issues or pull requests for improvements or new features.
+
+## License
+This project is licensed under the MIT License.
+```bash
+### Notes:
+- Replace `<repository-url>` and `<repository-directory>` with your actual repository details.
+- Customize sections as needed to better fit your project specifics.
+```
 
