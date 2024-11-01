@@ -12,7 +12,7 @@ This is a simple Express.js application that allows users to download media from
 - Download media using a provided URL.
 
 ## Installation
-
+```
 1. Clone the repository:
 
 
