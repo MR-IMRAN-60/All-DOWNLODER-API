@@ -51,6 +51,9 @@ This is a simple Express.js application that allows users to download media from
 - If the `url` parameter is missing, the API will return a `400` status code with an error message.
 - If an error occurs during the media download, a `500` status code will be returned with an error message.
 
+- ## Html response
+- ![Media Downloader](https://i.imgur.com/9In0VY0.jpeg)
+
 ## Contributing
 
 Feel free to submit issues or pull requests for improvements or new features.
