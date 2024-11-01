@@ -19,3 +19,8 @@ To get started with this project, clone the repository and install the necessary
 git clone <repository-url>
 cd <repository-directory>
 npm install
+```
+2.Install the required packages:
+bash```
+npm install
+```
