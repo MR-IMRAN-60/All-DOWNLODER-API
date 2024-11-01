@@ -21,6 +21,6 @@ cd <repository-directory>
 npm install
 ```
 2.Install the required packages:
-bash```
+```bash
 npm install
 ```
