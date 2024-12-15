@@ -1,6 +1,6 @@
 const express = require('express');
 const fetchNotice = require('./public/notice');
-const { alldl } = require('imran-dlmedia');
+const { alldl } = require('imran-alldl');
 const path = require('path');
 
 const app = express(); // Initialize app here
